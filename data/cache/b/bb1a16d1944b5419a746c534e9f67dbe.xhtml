@@ -1,0 +1,47 @@
+
+<h1 class="sectionedit1"><a name="datasource" id="datasource">DataSource</a></h1>
+<div class="level1">
+
+<p>
+An application is useless of course if the store doesn&#039;t contain data, so there has to be a mechanism that fills the store. There isn&#039;t a unified way of talking to servers however as there are many types of back-ends and interfaces. To make the transition from the back end to the store possible, there needs to be a translation engine, which in SC is called a data source. The data source will translate calls made by the applicationto the store into requests to the server, it will manage the data returning from the server and feed it into the store. 
+</p>
+
+<p>
+By design the store will accept only a single data source. At the same time, the concept behind a data source is that it is used with a single back end only. 
+In most cases this will be sufficient, but in case multiple data sources are needed a wrapper exists which contains multiple data sources, but pretends to be a single data source. This concept is called a cascading data source and is supported by SC.
+</p>
+
+</div>
+<!-- EDIT1 SECTION "DataSource" [1-994] -->
+<h3 class="sectionedit2"><a name="data_source_workings" id="data_source_workings">Data source workings</a></h3>
+<div class="level3">
+
+<p>
+
+When the store receives a request from the application, it will pass on the request to the data source. The store can pass on the request directly, or indirectly in case of changes. From the available information, the data source needs to determine what to request exactly, create a request and send it to the back end. A data source will always interact with the store using the storeKey. Every type of information about the record (such as model, record status, record data etc) can be retrieved from the store using the storeKey.  
+</p>
+
+<p>
+When sending requests to the data source, the store will call the functions fetch, createRecord, retrieveRecord, updateRecord and destroyRecord. (Plural versions of the last 4 functions also exist, but the default implementation of these functions will call these four functions for every change and this is sufficient in most cases).
+</p>
+
+<p>
+The fetch function is called whenever a query is performed. A query can either be local or remote, denoting whether the query is intended to be executed on the stores memory or to be sent to the back end. When the query is local, the data sources fetch function will only be called when the query is first performed. When the query is remote, the fetch function will always be called.
+The reason this separate function exists is because the store cannot know how many records the server will return or whether the records already exist in its memory. When the data is received from the back end, the records need to be loaded into the store with loadRecords. This function will check whether a record of that type and a specific primaryKey value already exists in the stores memory. When it already exists, it will update it. When it doesn&#039;t yet exist, the store will store the new records. The function will return a set of storeKeys for the records provided. To finish the request, the query also needs to be updated on the new record data, which can be done by calling loadQueryResults. 
+</p>
+
+<p>
+The function createRecord, updateRecord and destroyRecord can be called by the store as a result of a call to commitRecords by the application. The data source needs to send a request to the back end to store the changes. If the call is successful, the dataSourceDidComplete function needs to be called. When performing a create action, the new primary key has to be set on the data given to the function. When performing an update action, the new data can be given. When performing a destroy action no data is needed.
+</p>
+
+<p>
+The function retrieveRecord is mostly used by the store to get the latest version of a record when it is selected in the interface. When the server returns the newest version, the dataSourceDidComplete needs to be called with the newest version of that record.
+</p>
+
+<p>
+When dealing with records having childRecords (also called nested records) there is no real difference, as the data hash is just one record of a certain type to the store and the data source.
+
+</p>
+
+</div>
+<!-- EDIT2 SECTION "Data source workings" [995-] -->

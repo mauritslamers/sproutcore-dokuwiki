@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="FeedCreator 1.7.2-ppt DokuWiki" -->
+<?xml-stylesheet href="http://devmt.hku.nl/~sproutcore/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="http://devmt.hku.nl/~sproutcore/feed.php">
+        <title>Sproutcore</title>
+        <description></description>
+        <link>http://devmt.hku.nl/~sproutcore/</link>
+        <image rdf:resource="http://devmt.hku.nl/~sproutcore/lib/images/favicon.ico" />
+       <dc:date>2010-10-17T23:28:21+02:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://devmt.hku.nl/~sproutcore/doku.php?id=concepts&amp;rev=1287333791&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devmt.hku.nl/~sproutcore/doku.php?id=datastore-concepts&amp;rev=1287333791&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devmt.hku.nl/~sproutcore/doku.php?id=datastore&amp;rev=1287333791&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devmt.hku.nl/~sproutcore/doku.php?id=menu&amp;rev=1287348900&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devmt.hku.nl/~sproutcore/doku.php?id=setupframework&amp;rev=1287333791&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devmt.hku.nl/~sproutcore/doku.php?id=setupinterface&amp;rev=1287333791&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devmt.hku.nl/~sproutcore/doku.php?id=setuptabs&amp;rev=1287333791&amp;do=diff"/>
+                <rdf:li rdf:resource="http://devmt.hku.nl/~sproutcore/doku.php?id=start&amp;rev=1287333955&amp;do=diff"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="http://devmt.hku.nl/~sproutcore/lib/images/favicon.ico">
+        <title>Sproutcore</title>
+        <link>http://devmt.hku.nl/~sproutcore/</link>
+        <url>http://devmt.hku.nl/~sproutcore/lib/images/favicon.ico</url>
+    </image>
+    <item rdf:about="http://devmt.hku.nl/~sproutcore/doku.php?id=concepts&amp;rev=1287333791&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-10-17T18:43:11+02:00</dc:date>
+        <title>concepts</title>
+        <link>http://devmt.hku.nl/~sproutcore/doku.php?id=concepts&amp;rev=1287333791&amp;do=diff</link>
+        <description></description>
+    </item>
+    <item rdf:about="http://devmt.hku.nl/~sproutcore/doku.php?id=datastore-concepts&amp;rev=1287333791&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-10-17T18:43:11+02:00</dc:date>
+        <title>datastore-concepts</title>
+        <link>http://devmt.hku.nl/~sproutcore/doku.php?id=datastore-concepts&amp;rev=1287333791&amp;do=diff</link>
+        <description></description>
+    </item>
+    <item rdf:about="http://devmt.hku.nl/~sproutcore/doku.php?id=datastore&amp;rev=1287333791&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-10-17T18:43:11+02:00</dc:date>
+        <title>datastore</title>
+        <link>http://devmt.hku.nl/~sproutcore/doku.php?id=datastore&amp;rev=1287333791&amp;do=diff</link>
+        <description></description>
+    </item>
+    <item rdf:about="http://devmt.hku.nl/~sproutcore/doku.php?id=menu&amp;rev=1287348900&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-10-17T22:55:00+02:00</dc:date>
+        <title>menu</title>
+        <link>http://devmt.hku.nl/~sproutcore/doku.php?id=menu&amp;rev=1287348900&amp;do=diff</link>
+        <description>*   Tutorials
+	*   Concepts
+		*   Inheritance
+		*   MVC Roles 
+		*   Bindings 
+		*   Observers 
+		*   Getters and Setters
+		*   Computed Property
+		*   Mixins
+		*   RunLoop
+
+	*   Reference
+	*   Examples
+		*   Create
+		*   Extend
+		*   Binding
+		*   Observer 
+		*   Inter-object communication
+		*   Get
+		*   Set</description>
+    </item>
+    <item rdf:about="http://devmt.hku.nl/~sproutcore/doku.php?id=setupframework&amp;rev=1287333791&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-10-17T18:43:11+02:00</dc:date>
+        <title>setupframework</title>
+        <link>http://devmt.hku.nl/~sproutcore/doku.php?id=setupframework&amp;rev=1287333791&amp;do=diff</link>
+        <description></description>
+    </item>
+    <item rdf:about="http://devmt.hku.nl/~sproutcore/doku.php?id=setupinterface&amp;rev=1287333791&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-10-17T18:43:11+02:00</dc:date>
+        <title>setupinterface</title>
+        <link>http://devmt.hku.nl/~sproutcore/doku.php?id=setupinterface&amp;rev=1287333791&amp;do=diff</link>
+        <description></description>
+    </item>
+    <item rdf:about="http://devmt.hku.nl/~sproutcore/doku.php?id=setuptabs&amp;rev=1287333791&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-10-17T18:43:11+02:00</dc:date>
+        <title>setuptabs</title>
+        <link>http://devmt.hku.nl/~sproutcore/doku.php?id=setuptabs&amp;rev=1287333791&amp;do=diff</link>
+        <description></description>
+    </item>
+    <item rdf:about="http://devmt.hku.nl/~sproutcore/doku.php?id=start&amp;rev=1287333955&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2010-10-17T18:45:55+02:00</dc:date>
+        <title>start</title>
+        <link>http://devmt.hku.nl/~sproutcore/doku.php?id=start&amp;rev=1287333955&amp;do=diff</link>
+        <description>Sproutcore is a web application framework especially suited for developing desktop-grade applications.
+
+The following paths are available:
+
+ Tutorials 
+
+A list of tutorials you can use to start learning the framework
+
+ Concepts 
+
+A list of concepts used in Sproutcore</description>
+    </item>
+</rdf:RDF>

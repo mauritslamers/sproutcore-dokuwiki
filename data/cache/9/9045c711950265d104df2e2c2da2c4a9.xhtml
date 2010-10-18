@@ -1,0 +1,35 @@
+
+<h1 class="sectionedit1"><a name="runloop" id="runloop">RunLoop</a></h1>
+<div class="level1">
+
+<p>
+
+As JavaScript is a event based language, a continuous running JavaScript application wouldn&#039;t work well and would need much resources.  The RunLoop wraps the JavaScript (or browser) events and is used to propagate all changes throughout the entire application, and fire all observers and bindings. In a browser the RunLoop is mostly executed after every event supported by the browser, such as mouseover, onclick etc…
+</p>
+
+</div>
+<!-- EDIT1 SECTION "RunLoop" [1-444] -->
+<h3 class="sectionedit2"><a name="advantages_of_runloops" id="advantages_of_runloops">Advantages of RunLoops</a></h3>
+<div class="level3">
+<ul>
+<li class="level1"><div class="li"> More consistent timing</div>
+</li>
+<li class="level1"><div class="li"> Gives you a way to defer execution of some events until the end of the loop or until a later time. This can dramatically improve performance at times</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT2 SECTION "Advantages of RunLoops" [445-660] -->
+<h3 class="sectionedit3"><a name="using_runloops_in_your_own_app" id="using_runloops_in_your_own_app">Using RunLoops in your own app</a></h3>
+<div class="level3">
+<ul>
+<li class="level1"><div class="li"> Always begin and end each event handler with SC.RunLoop.begin() &amp; SC.RunLoop.end()</div>
+</li>
+<li class="level1"><div class="li"> Use Function.invokeLater() instead of timeouts</div>
+</li>
+<li class="level1"><div class="li"> Use Function.invokeOnce() to exec updates only once.</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT3 SECTION "Using RunLoops in your own app" [661-] -->
