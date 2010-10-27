@@ -1,8 +1,0 @@
-a:2:{s:7:"current";a:6:{s:4:"date";a:2:{s:7:"created";i:1287333909;s:8:"modified";i:1287333791;}s:7:"creator";s:0:"";s:5:"title";s:46:"An overview of the data store and its concepts";s:11:"description";a:2:{s:15:"tableofcontents";a:6:{i:0;a:4:{s:3:"hid";s:46:"an_overview_of_the_data_store_and_its_concepts";s:5:"title";s:46:"An overview of the data store and its concepts";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:9:"the_store";s:5:"title";s:9:"The store";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:7:"concept";s:5:"title";s:7:"Concept";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:3;a:4:{s:3:"hid";s:16:"application_side";s:5:"title";s:16:"Application side";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:4;a:4:{s:3:"hid";s:19:"data_source_concept";s:5:"title";s:19:"Data source concept";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:5;a:4:{s:3:"hid";s:20:"data_source_workings";s:5:"title";s:20:"Data source workings";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:503:"The store
-
-Concept
-
-
-The store inside an application should be regarded as the in-memory storage of data the application needs to handle.
-Its role in the application is the source of all data (or records) in the application and it provides ways to perform queries and searches on that data.
-What the store doesn't do is send record instances (objects) around inside the application. This would cause a real management problem as the application then has to track all versions of that record in all pa…";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}}s:10:"persistent";a:2:{s:4:"date";a:1:{s:7:"created";i:1287333909;}s:7:"creator";s:0:"";}}

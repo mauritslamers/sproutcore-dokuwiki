@@ -1,9 +1,0 @@
-  MyApp.<span class="me1">myControllerTwo</span> <span class="sy0">=</span> SC.<span class="me1">Controller</span>.<span class="me1">create</span><span class="br0">&#40;</span><span class="br0">&#123;</span>
-&nbsp;
-    propOnControllerOneBinding<span class="sy0">:</span> <span class="st0">'MyApp.myControllerOne.prop'</span><span class="sy0">,</span>
-&nbsp;
-    propObs<span class="sy0">:</span> <span class="kw2">function</span><span class="br0">&#40;</span><span class="br0">&#41;</span><span class="br0">&#123;</span>
-      <span class="co1">// this will be fired as soon as the value of prop on MyApp.myControllerOne changes</span>
-    <span class="br0">&#125;</span>.<span class="me1">observes</span><span class="br0">&#40;</span><span class="st0">'propOnControllerOne'</span><span class="br0">&#41;</span>
-&nbsp;
-  <span class="br0">&#125;</span><span class="br0">&#41;</span><span class="sy0">;</span>

@@ -1,8 +1,0 @@
-   MyApp.<span class="me1">MyNewObject</span> <span class="sy0">=</span> SC.<span class="me1">Object</span>.<span class="me1">extend</span><span class="br0">&#40;</span>SC.<span class="me1">Enumerable</span><span class="sy0">,</span><span class="br0">&#123;</span>
-     property<span class="sy0">:</span> value<span class="sy0">,</span>
-     anotherProperty<span class="sy0">:</span> anotherValue<span class="sy0">,</span>
-     aMethod<span class="sy0">:</span> <span class="kw2">function</span><span class="br0">&#40;</span>params<span class="br0">&#41;</span><span class="br0">&#123;</span>
-       <span class="co1">// function body</span>
-       <span class="kw1">return</span> params<span class="sy0">;</span>
-     <span class="br0">&#125;</span>
-   <span class="br0">&#125;</span><span class="br0">&#41;</span><span class="sy0">;</span>
