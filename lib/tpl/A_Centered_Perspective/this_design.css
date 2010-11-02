@@ -120,7 +120,11 @@ text-shadow: rgba(255, 255, 255, 0.898438) 0px 1px 1px;
   height: 1.6364em; /* 36px */
   margin-bottom: 0em;
 	margin-left: 12px;
-			text-shadow: white 1px 1px;
+	padding-left: 50px;
+	padding-bottom: 2px;
+	text-shadow: white 1px 1px;
+	
+	background: url('images/sproutcore-logo.png') no-repeat;
 	
 }
 
@@ -212,8 +216,6 @@ text-shadow: rgba(255, 255, 255, 0.898438) 0px 1px 1px;
 .menu ul ul {
 	background-color: rgba(0,0,0, 0.05);
 }
-
-
 
 .menu ul ul ul {
 	background-color: transparent;
@@ -373,7 +375,7 @@ div.dokuwiki div.level5 { margin-left: 16px; }
 }
 
 html { background:#F1F1F1 none repeat scroll 0 0; }
-body { font:12px/1.5 "Lucida Grande", Geneva, Arial, Verdana, sans-serif; color:#333; background:transparent; }
+body { font: 0.8em/1.5 "Lucida Grande", Geneva, Arial, Verdana, sans-serif; color:#333; background:transparent; }
 
 /*vertical rhythm */
 h1, h2,h3, h4,h5 {
@@ -387,12 +389,7 @@ p {
 }
 
 
-
-
-
-
 /* end of rhythm */
-
 
 #wrapper {
 	margin: 2em auto;
@@ -430,9 +427,6 @@ p {
 	float: left;
 	width: 240px;
 }
-
-
-
 
 .left-page {
 	float: left;
@@ -513,8 +507,6 @@ div.dokuwiki div.secedit input.button {
   border-color: __form_border__;
   font-size: 100%;
 }
-
-
 
 
 /* ----- AJAX Quicksearch ----- */

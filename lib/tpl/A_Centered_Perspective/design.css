@@ -86,7 +86,7 @@ div.dokuwiki fieldset {
 
 div.dokuwiki textarea.edit {
   font-family: monospace;
-  font-size: 14px;
+  font-size: 1.4em;
   color: __text__;
   background-color: __background__;
   border: 1px solid __border__;
@@ -217,7 +217,7 @@ div.dokuwiki div.secedit input.button {
   text-decoration: none;
   margin: 0;
   padding: 0;
-  font-size: 10px;
+  font-size: 0.6em;
   cursor: pointer;
   float: right;
   display: inline;
@@ -480,7 +480,8 @@ div.dokuwiki pre.pre {
 /* code blocks by code tag */
 div.dokuwiki pre.code {
 	font-family: 'Andale Mono', 'Menlo', 'Monaco', monospace;
-	font-size: 10pt;
+	/*font-size: 10pt;*/
+	font-size: 1.1em;
 	/*line-height: 10pt;*/
   background-color: __background_other__;
 }
@@ -712,7 +713,7 @@ div.dokuwiki .search_result {
 
 div.dokuwiki .search_snippet {
   color: __text_other__;
-  font-size: 12px;
+  font-size: 0.6em;
   margin-left: 20px;
 }
 
