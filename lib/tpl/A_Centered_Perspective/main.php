@@ -121,7 +121,11 @@ require_once(dirname(__FILE__).'/tpl_functions.php');
       <?php if(!tpl_sidebar_hide()) { ?>
         <div class="left-sidebar">
 			<div class="menu">
-		  		<?php render_navigation(":menu");?>
+ 		  		<?php render_navigation(":menu");?>
+                           <div class="recentchanges">
+				Recent changes:<br/>
+				<?php echo p_wiki_xhtml(":recent");?> 
+			   </div>  
 			</div>
           <?php tpl_sidebar('left') ?>
         </div>
@@ -155,7 +159,9 @@ require_once(dirname(__FILE__).'/tpl_functions.php');
         <div class="right-sidebar">
 			<div class="menu">
 		  		<?php render_navigation(":menu");?>
+                           <div class="recentchanges">  <?php echo p_wiki_xhtml(":recent");?> </div>  
 			</div>
+
           <?php tpl_sidebar('right') ?>
         </div>
       <?php } else { ?>
