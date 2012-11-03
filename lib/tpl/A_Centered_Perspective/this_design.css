@@ -281,6 +281,34 @@ text-shadow: rgba(255, 255, 255, 0.898438) 0px 1px 1px;
   margin-left: 8px;
 }
 
+/* Fünfte Ebene, alle Links */
+.menu > ul > li > ul > li > ul > li > ul > li > ul > li > div > a {
+  margin-left: 8px;
+}
+/* Fünfte Ebene, aktiver Link */
+.menu > ul > li > ul > li > ul > li > ul > li > ul > li > div > .current a.wikilink1 {
+  margin-left: 8px;
+}
+
+/* Sechste Ebene, alle Links */
+.menu > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li > div > a {
+  margin-left: 8px;
+}
+/* Sechste Ebene, aktiver Link */
+.menu > ul > li > ul > li > ul > li > ul > li > ul > li > ul> li > div > .current a.wikilink1 {
+  margin-left: 8px;
+}
+
+/* Siebene Ebene, alle Links */
+.menu > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li >div > a {
+  margin-left: 8px;
+}
+/* Siebene Ebene, aktiver Link */
+.menu > ul > li > ul > li > ul > li > ul > li > ul > li > ul> li > ul > li > div > .current a.wikilink1 {
+  margin-left: 8px;
+}
+
+
 
 
 div.dokuwiki #page > h1:first-child {
@@ -708,3 +736,21 @@ div.dokuwiki div.toolbox_sidebar a.revert {
 #menubar a.revert {
   background: transparent url(images/tool-revert.png) 12px center no-repeat;
 }
+
+.recentchanges {
+  margin-top: 120px;
+  margin-left: 10px;
+}
+
+.recentchanges li.level1 {
+  margin-left: 20px;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+}
+
+.recentchanges li.level1 .li a {
+  margin-left: -20px;
+  margin-bottom: -5px;
+  display: block;
+}
+
