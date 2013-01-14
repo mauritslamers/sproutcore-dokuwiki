@@ -29,11 +29,10 @@ require_once(dirname(__FILE__).'/tpl_functions.php');
   <title>
     <?php tpl_pagetitle()?> – <?php echo strip_tags($conf['title'])?>
   </title>
-
+  <script src="http://devmt.hku.nl/~sproutcore/jquery.min.js"></script>
   <?php tpl_metaheaders()?>
 
   <link rel="shortcut icon" href="<?php echo DOKU_TPL?>images/favicon.ico" />
-
   <?php /*old includehook*/ @include(dirname(__FILE__).'/meta.html')?>
 
 </head>
